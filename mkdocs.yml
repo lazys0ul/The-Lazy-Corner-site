@@ -1,0 +1,51 @@
+site_name: The Lazy's Corner
+site_author: LazySoul
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Poppins
+    code: Fira Code
+  features:
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    
+
+nav:
+  - Home: index.md
+  - SEM 3:
+      - PE309 Project Management:
+          - Module 1: sem-3/pe309/Module 1.md
+          - Module 2: sem-3/pe309/Module 2.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/pranav__.08
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/users/common.noun
+    - icon: fontawesome/brands/github
+      link: https://github.com/lazys0ul
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/pranav0997
+
+extra_css:
+  - stylesheets/custom.css
