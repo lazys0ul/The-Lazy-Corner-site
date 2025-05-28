@@ -31,10 +31,18 @@ theme:
 
 nav:
   - Home: index.md
+  - SEM 2:
+      - CS101 Programming for Problem Solving:
+          - Overview: sem-2/CS101/index.md
+          - Module 1: sem-2/CS101/Module 1.md
+          - Module 2: sem-2/CS101/Module 2.md
+          - Resources: sem-2/CS101/resources.md
   - SEM 3:
       - PE309 Project Management:
+          - Overview: sem-3/pe309/index.md
           - Module 1: sem-3/pe309/Module 1.md
           - Module 2: sem-3/pe309/Module 2.md
+
 
 extra:
   social:
