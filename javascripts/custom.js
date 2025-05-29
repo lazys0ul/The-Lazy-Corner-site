@@ -3,11 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (siteTitle && !siteTitle.closest("a")) {
     const link = document.createElement("a");
-    link.href = "/";
-    link.style.color = "inherit";
-    link.style.textDecoration = "none";
-    siteTitle.parentNode.replaceChild(link, siteTitle);
+    link.href = window.location.origin + "/";
+    link.classList.add("custom-link-style");
     link.appendChild(siteTitle);
+    siteTitle.parentNode.replaceChild(link, siteTitle);
   }
 });
 
