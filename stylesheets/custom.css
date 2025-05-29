@@ -1,78 +1,176 @@
 /* === Base Styling === */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f3e7fe 0%, #e0f7fa 100%);
-    color: #2b2b2b;
-    transition: background 0.3s ease;
-  }
-  [data-md-color-scheme="slate"] {
-    background: linear-gradient(135deg, #1c1a25 0%, #2e2c3a 100%);
-    color: #eaeaea;
-  }
-  
-  /* === Homepage Hero Styling === */
-  .md-typeset h1:first-child {
-    font-size: 2.6rem;
-    text-align: center;
-    color: #6a1b9a;
-    text-shadow: 1px 1px 4px rgba(106, 27, 154, 0.3);
-    animation: fadeIn 1s ease-in-out;
-  }
-  .md-typeset > blockquote {
-    font-style: italic;
-    font-size: 1.2rem;
-    color: #555;
-    text-align: center;
-    animation: fadeIn 1.2s ease;
-  }
-  
-  /* === Logo Image Styling === */
-  .md-typeset img[src*="logo"] {
-    display: block;
-    margin: 0 auto;
-    animation: slideIn 1s ease;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  }
-  
-  /* === Links and Buttons === */
-  a {
-    color: #512da8;
-    transition: all 0.3s ease;
-  }
-  a:hover {
-    color: #ab47bc;
-    text-decoration: none;
-    box-shadow: 0 0 6px rgba(171, 71, 188, 0.3);
-    border-radius: 6px;
-  }
-  
-  /* === Glow on Hover === */
-  .md-typeset a:hover,
-  .md-typeset li:hover,
-  .md-typeset details:hover {
-    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2);
-  }
-  
-  /* === Card & Module Boxes === */
-  .md-typeset .admonition, .md-typeset details {
-    border-left: 4px solid #7e57c2;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(8px);
-    padding: 1em;
-    border-radius: 10px;
-    transition: 0.3s ease;
-  }
-  [data-md-color-scheme="slate"] .md-typeset .admonition {
-    background: rgba(50, 50, 70, 0.5);
-  }
-  
-  /* === Animations === */
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes slideIn {
-    from { opacity: 0; transform: translateY(-30px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #f3e7fe 0%, #e0f7fa 100%);
+color: #2b2b2b;
+transition: background 0.3s ease;
+overflow-wrap: break-word;
+}
+
+[data-md-color-scheme="slate"] {
+background: linear-gradient(135deg, #1c1a25 0%, #2e2c3a 100%);
+color: #eaeaea;
+}
+
+/* === Homepage Headline & Subtext === */
+.md-typeset h1:first-child {
+font-size: 2.6rem;
+text-align: center;
+color: #6a1b9a;
+text-shadow: 1px 1px 4px rgba(106, 27, 154, 0.3);
+animation: fadeIn 1s ease-in-out;
+margin-bottom: 1rem;
+}
+
+.md-typeset > blockquote {
+font-style: italic;
+font-size: 1.2rem;
+color: #555;
+text-align: center;
+animation: fadeIn 1.2s ease;
+margin-bottom: 1rem;
+}
+
+/* === Logo Styling === */
+.md-header__button.md-logo img {
+height: 2.2rem;
+border-radius: 12px;
+transition: transform 0.2s ease;
+}
+
+.md-header__button.md-logo:hover img {
+transform: scale(1.1);
+}
+
+/* === Link & Hover Enhancements === */
+a {
+color: #512da8;
+transition: all 0.3s ease;
+}
+
+a:hover {
+color: #ab47bc;
+text-decoration: none;
+box-shadow: 0 0 6px rgba(171, 71, 188, 0.3);
+border-radius: 6px;
+}
+
+.md-typeset a:hover,
+.md-typeset li:hover,
+.md-typeset details:hover {
+box-shadow: 0 0 10px rgba(106, 27, 154, 0.2);
+}
+
+/* === Admonition / Collapsible Styling === */
+.md-typeset .admonition,
+.md-typeset details {
+border-left: 4px solid #7e57c2;
+background: rgba(255, 255, 255, 0.6);
+backdrop-filter: blur(8px);
+padding: 1em;
+border-radius: 10px;
+margin: 1em 0;
+transition: 0.3s ease;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+background: rgba(50, 50, 70, 0.5);
+}
+
+/* === Code Block Styling === */
+.md-typeset pre > code {
+border-radius: 8px;
+font-size: 0.9rem;
+background-color: #f5f5f5;
+padding: 0.75em;
+line-height: 1.5;
+display: block;
+overflow-x: auto;
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre > code {
+background-color: #2d2b40;
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+from { opacity: 0; transform: translateY(-30px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Responsive Fixes === */
+@media screen and (max-width: 768px) {
+.md-typeset h1:first-child {
+font-size: 2rem;
+}
+
+.md-header__button.md-logo img {
+height: 1.8rem;
+}
+}
+
+/* === Buttons === */
+.btn-primary {
+background-color: #7e57c2;
+color: white;
+border: none;
+padding: 8px 16px;
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+background-color: #9575cd;
+}
+
+.btn-secondary {
+background-color: #eeeeee;
+color: #333;
+padding: 8px 16px;
+border-radius: 6px;
+border: 1px solid #ccc;
+transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+background-color: #e0e0e0;
+}
+
+/* === Make Site Title Clickable === */
+.md-header__title {
+position: relative;
+}
+
+.md-header__title::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+cursor: pointer;
+z-index: 2;
+}
+
+.md-header__title::after {
+content: "";
+background: transparent;
+}
+
+.md-header__title a {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 3;
+display: block;
+width: 100%;
+height: 100%;
+text-decoration: none;
+}
