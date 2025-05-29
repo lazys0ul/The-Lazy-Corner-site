@@ -31,7 +31,8 @@ theme:
 
 nav:
   - Home: index.md
-  - About: about.md
+
+
   - SEM 2:
       - CS101 Programming for Problem Solving:
           - Overview: sem-2/CS101/index.md
@@ -44,6 +45,9 @@ nav:
           - Module 1: sem-3/pe309/Module 1.md
           - Module 2: sem-3/pe309/Module 2.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
 
 extra:
   social:

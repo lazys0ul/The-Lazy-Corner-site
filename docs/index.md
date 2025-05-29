@@ -1,56 +1,35 @@
----
-title: Welcome
-hide:
-  - toc
-icon: material/panda
----
+# 🐼 Welcome to The Lazy's Corner!
 
-# 🐼 Welcome to **The Lazy's Corner!**
+## Surviving the semester one page at a time.
 
-> _Surviving the semester, one page at a time._
+This site is built to serve as a central academic resource for IMSc Mathematics and Computing.  
+Use the sidebar to navigate subject-wise notes, modules, and resources.
 
 ---
 
-## 🌟 What’s Inside?
+## 📌 Essential Documents
 
-- 🎓 Module-wise **notes**
-- 📊 Diagrams, flowcharts, and illustrations
-- 📎 External resources: PDFs, YouTube links
-- 🧪 PYQs, mock tests, revision summaries
-- 💻 Coming soon: interactive coding, AI buddy, syllabus tracker!
+Frequently used semester-wide resources:
 
----
-
-## 🚧 Note:
-
-This site currently focuses on **non-Mathematics Department subjects** — since finding quality resources for those is often a pain.
-
-Use the **navigation sidebar** to get started 🚀
+-  [Syllabus Overview](resources/syllabus.md)
+-  [Class Schedule](resources/class_schedule.md)
+-  [Holiday List](resources/holiday_list.md)
+-  [Notices & Announcements](resources/notices.md)
 
 ---
 
-## 🧍 About Me
+??? info "About the Creator"
+    Maintained by Pranav — IMSc Mathematics and Computing student.
 
-Hey! I’m **Pranav**, your fellow IMSc Math & Computing student.
+    This project aims to consolidate important academic resources and semester content in one place.
 
-This site started as my personal semester companion and slowly became something I hope will:
-- help peers like you survive the chaos,
-- act as a portfolio-worthy project,
-- and serve as a legacy for juniors 💌
+    Tech stack used:
+    
+    - MkDocs + Material theme
+    - HTML, CSS, and animation.css
+    - Backend and interactive features in progress
 
-> It’s made with MkDocs + Material theme, customized with HTML, CSS, and animation.css.  
-> A backend upgrade is on the way to make things interactive!
-
----
-
-## 🌐 Connect with Me
-
-[![Instagram](https://img.shields.io/badge/Instagram-%40pranav__.08-critical?style=flat&logo=instagram)](https://instagram.com/pranav__.08)
-[![Discord](https://img.shields.io/badge/Discord-common.noun-5865F2?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/common.noun)
-[![GitHub](https://img.shields.io/badge/GitHub-LazySoul--Projects-000?style=flat&logo=github)](https://github.com/lazys0ul)
-
----
-
-<p align="center">
-  <sub><i>✨ Built by a lazy soul, for lazy (but ambitious) learners like you.</i></sub>
-</p>
+    Socials:
+    -  [Instagram](https://instagram.com/pranav__.08)
+    -  [GitHub](https://github.com/lazys0ul)
+    -  Discord: `common.noun`
