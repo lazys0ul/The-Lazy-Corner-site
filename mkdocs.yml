@@ -5,6 +5,7 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+  homepage: index.md
   palette:
     - scheme: default
       primary: indigo
@@ -24,15 +25,17 @@ theme:
   features:
     - navigation.expand
     - navigation.top
+    - navigation.footer
+    - toc.integrate
     - search.highlight
     - search.suggest
     - content.code.copy
-    
+    - content.action.edit
+    - content.tabs.link
+    - header.autohide
 
 nav:
   - Home: index.md
-
-
   - SEM 2:
       - CS101 Programming for Problem Solving:
           - Overview: sem-2/CS101/index.md
@@ -48,6 +51,10 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
 
 extra:
   social:
@@ -62,3 +69,6 @@ extra:
 
 extra_css:
   - stylesheets/custom.css
+
+extra_javascript:
+  - js/clickable-title.js
