@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - toc:
-      permalink: true
+      permalink: "🔗"
 
 extra:
   social:
@@ -69,6 +69,12 @@ extra:
 
 extra_css:
   - stylesheets/custom.css
+  - javascripts/aos.css
+
+
 
 extra_javascript:
   - js/clickable-title.js
+  - javascripts/custom.js
+  - javascripts/aos.js
+  - javascripts/init-aos.js

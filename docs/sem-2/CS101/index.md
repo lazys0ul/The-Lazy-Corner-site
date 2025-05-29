@@ -5,7 +5,7 @@ This page is designed to give you a head start in the subject, whether you're a 
 
 ---
 
-## ✨ What to Expect from This Course
+##  What to Expect from This Course
 
 You'll start from scratch like learning how computers interpret instructions, how to write and structure code logically, and how to implement real-world algorithms in C.  
 It may feel a bit overwhelming at first, especially if you're new to coding, but trust me, once you start solving problems, it becomes *addictive*.
