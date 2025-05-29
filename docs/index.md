@@ -1,27 +1,56 @@
-# 🐼 Welcome to The Lazy's Corner!
+---
+title: Welcome
+hide:
+  - toc
+icon: material/panda
+---
 
-## Surviving the semester one page at a time.
+# 🐼 Welcome to **The Lazy's Corner!**
+
+> _Surviving the semester, one page at a time._
 
 ---
 
-🎓 **Resources for IMSc Mathematics and Computing**
+## 🌟 What’s Inside?
 
-This site includes:
-
--  Unit-wise notes
--  Diagrams and charts
--  Helpful resources and links
--  Revision tips and summaries
--  PYQs and Mock test/papers
--  Interactive section to practice your code and get it graded just as you submit it
-
-## NOTE : This site is primarily built for the subjects other than those which are under the Mathematics Department (just for now) or whose resources are a hassel to find.
----
-
-🛠️ Built and maintained as a semester companion, a CV-worthy hobby project, and a legacy for juniors. I have used MKDocs + Material theme, Html, CSS, animation.css for the frontend. (the backend is still in the making will soon upgrade the website to its interactive version... expect live discussion window, a progress/ syllabus tracker, score board for the practice session, an AI companion and much more)
-
- More subjects will be added as I move ahead!
+- 🎓 Module-wise **notes**
+- 📊 Diagrams, flowcharts, and illustrations
+- 📎 External resources: PDFs, YouTube links
+- 🧪 PYQs, mock tests, revision summaries
+- 💻 Coming soon: interactive coding, AI buddy, syllabus tracker!
 
 ---
 
-_Use the navigation on the left to explore notes & modules._
+## 🚧 Note:
+
+This site currently focuses on **non-Mathematics Department subjects** — since finding quality resources for those is often a pain.
+
+Use the **navigation sidebar** to get started 🚀
+
+---
+
+## 🧍 About Me
+
+Hey! I’m **Pranav**, your fellow IMSc Math & Computing student.
+
+This site started as my personal semester companion and slowly became something I hope will:
+- help peers like you survive the chaos,
+- act as a portfolio-worthy project,
+- and serve as a legacy for juniors 💌
+
+> It’s made with MkDocs + Material theme, customized with HTML, CSS, and animation.css.  
+> A backend upgrade is on the way to make things interactive!
+
+---
+
+## 🌐 Connect with Me
+
+[![Instagram](https://img.shields.io/badge/Instagram-%40pranav__.08-critical?style=flat&logo=instagram)](https://instagram.com/pranav__.08)
+[![Discord](https://img.shields.io/badge/Discord-common.noun-5865F2?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/common.noun)
+[![GitHub](https://img.shields.io/badge/GitHub-LazySoul--Projects-000?style=flat&logo=github)](https://github.com/lazys0ul)
+
+---
+
+<p align="center">
+  <sub><i>✨ Built by a lazy soul, for lazy (but ambitious) learners like you.</i></sub>
+</p>

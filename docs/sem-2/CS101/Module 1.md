@@ -43,3 +43,4 @@ Understand how to translate logic into actual code.
 - Learn the **compilation** process:
   - Object code
   - Executable code
+

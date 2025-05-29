@@ -31,6 +31,7 @@ theme:
 
 nav:
   - Home: index.md
+  - About: about.md
   - SEM 2:
       - CS101 Programming for Problem Solving:
           - Overview: sem-2/CS101/index.md

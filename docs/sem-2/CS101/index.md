@@ -51,14 +51,14 @@ It may feel a bit overwhelming at first, especially if you're new to coding, but
 
 ---
 
-## 📚 Recommended Books in the syllabus
+## Course Recommended Books
 
 1. *Problem Solving and Program Design in C* – Jeri R. Hanly (Pearson)
 2. *Programming with C* – Byron Gottfried (Schaum's Outline)
 3. *Programming in ANSI C* – E. Balaguruswamy
 4. *How to Solve it by Computer* – R.G. Dromey
 
-📖 **Reference:** *The C Programming Language* – Kernighan & Ritchie
+**Reference:** *The C Programming Language* – Kernighan & Ritchie
 
 ---
 
