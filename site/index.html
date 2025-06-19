@@ -48,6 +48,8 @@
     
       <link rel="stylesheet" href="stylesheets/custom.css">
     
+      <link rel="stylesheet" href="javascripts/aos.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -213,7 +215,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="The Lazy&#39;s Corner" class="md-nav__button md-logo" aria-label="The Lazy's Corner" data-md-component="logo">
       
@@ -291,9 +295,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#note-this-site-is-primarily-built-for-the-subjects-other-than-those-which-are-under-the-mathematics-department-just-for-now-or-whose-resources-are-a-hassel-to-find" class="md-nav__link">
+  <a href="#essential-documents" class="md-nav__link">
     <span class="md-ellipsis">
-      NOTE : This site is primarily built for the subjects other than those which are under the Mathematics Department (just for now) or whose resources are a hassel to find.
+      📌 Essential Documents
     </span>
   </a>
   
@@ -665,50 +669,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#surviving-the-semester-one-page-at-a-time" class="md-nav__link">
-    <span class="md-ellipsis">
-      Surviving the semester one page at a time.
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#note-this-site-is-primarily-built-for-the-subjects-other-than-those-which-are-under-the-mathematics-department-just-for-now-or-whose-resources-are-a-hassel-to-find" class="md-nav__link">
-    <span class="md-ellipsis">
-      NOTE : This site is primarily built for the subjects other than those which are under the Mathematics Department (just for now) or whose resources are a hassel to find.
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -718,25 +678,35 @@
 
 
 
-<h1 id="welcome-to-the-lazys-corner">🐼 Welcome to The Lazy's Corner!</h1>
-<h2 id="surviving-the-semester-one-page-at-a-time">Surviving the semester one page at a time.</h2>
+<h1 id="welcome-to-the-lazys-corner">🐼 Welcome to The Lazy's Corner!<a class="headerlink" href="#welcome-to-the-lazys-corner" title="Permanent link">🔗</a></h1>
+<h2 id="surviving-the-semester-one-page-at-a-time">Surviving the semester one page at a time.<a class="headerlink" href="#surviving-the-semester-one-page-at-a-time" title="Permanent link">🔗</a></h2>
+<p>This site is built to serve as a central academic resource for IMSc Mathematics and Computing.<br />
+Use the sidebar to navigate subject-wise notes, modules, and resources.</p>
 <hr />
-<p>🎓 <strong>Resources for IMSc Mathematics and Computing</strong></p>
-<p>This site includes:</p>
+<h2 id="essential-documents">📌 Essential Documents<a class="headerlink" href="#essential-documents" title="Permanent link">🔗</a></h2>
+<p>Frequently used semester-wide resources:</p>
 <ul>
-<li>Unit-wise notes</li>
-<li>Diagrams and charts</li>
-<li>Helpful resources and links</li>
-<li>Revision tips and summaries</li>
-<li>PYQs and Mock test/papers</li>
-<li>Interactive section to practice your code and get it graded just as you submit it</li>
+<li><a href="resources/syllabus.md">Syllabus Overview</a></li>
+<li><a href="resources/class_schedule.md">Class Schedule</a></li>
+<li><a href="resources/holiday_list.md">Holiday List</a></li>
+<li><a href="resources/notices.md">Notices &amp; Announcements</a></li>
 </ul>
-<h2 id="note-this-site-is-primarily-built-for-the-subjects-other-than-those-which-are-under-the-mathematics-department-just-for-now-or-whose-resources-are-a-hassel-to-find">NOTE : This site is primarily built for the subjects other than those which are under the Mathematics Department (just for now) or whose resources are a hassel to find.</h2>
 <hr />
-<p>🛠️ Built and maintained as a semester companion, a CV-worthy hobby project, and a legacy for juniors. I have used MKDocs + Material theme, Html, CSS, animation.css for the frontend. (the backend is still in the making will soon upgrade the website to its interactive version... expect live discussion window, a progress/ syllabus tracker, score board for the practice session, an AI companion and much more)</p>
-<p>More subjects will be added as I move ahead!</p>
-<hr />
-<p><em>Use the navigation on the left to explore notes &amp; modules.</em></p>
+<details class="info">
+<summary>About the Creator</summary>
+<p>Maintained by Pranav — IMSc Mathematics and Computing student.</p>
+<p>This project aims to consolidate important academic resources and semester content in one place.</p>
+<p>Tech stack used:</p>
+<ul>
+<li>MkDocs + Material theme</li>
+<li>HTML, CSS, and animation.css</li>
+<li>Backend and interactive features in progress</li>
+</ul>
+<p>Socials:
+-  <a href="https://instagram.com/pranav__.08">Instagram</a>
+-  <a href="https://github.com/lazys0ul">GitHub</a>
+-  Discord: <code>common.noun</code></p>
+</details>
 
 
 
@@ -754,6 +724,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -766,6 +738,30 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+          
+          <a href="sem-2/CS101/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -839,10 +835,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "navigation.top", "navigation.footer", "toc.integrate", "search.highlight", "search.suggest", "content.code.copy", "content.action.edit", "content.tabs.link", "header.autohide"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="js/clickable-title.js"></script>
+      
+        <script src="javascripts/custom.js"></script>
+      
+        <script src="javascripts/aos.js"></script>
+      
+        <script src="javascripts/init-aos.js"></script>
       
     
   </body>
